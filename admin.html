@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Gerenciar Horários</title>
+    <link rel="stylesheet" href="stylesAdmin.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciar Horários</h1>
+    </header>
+    <main>
+        <form id="horarios-form">
+            <label for="data">Data:</label>
+            <input type="date" id="data" required>
+
+            <label for="horarios">Horários Disponíveis (separados por vírgula):</label>
+            <input type="text" id="horarios" placeholder="Ex: 10:00, 11:00, 12:00" required>
+
+            <button type="submit">Salvar Horários</button>
+        </form>
+    </main>
+    <script type="module" src="/js/admin.js"></script>
+</body>
+</html>

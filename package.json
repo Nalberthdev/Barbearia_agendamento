@@ -1,0 +1,26 @@
+{
+  "name": "barbearia_agendamento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nalberthdev/Barbearia_agendamento.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nalberthdev/Barbearia_agendamento/issues"
+  },
+  "homepage": "https://github.com/Nalberthdev/Barbearia_agendamento#readme",
+  "devDependencies": {
+    "firebase": "^11.4.0",
+    "vite": "^6.2.1"
+  }
+}
